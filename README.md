@@ -18,6 +18,8 @@ python host.py
 
 tool.py可以自行添加方法，但方法注释需要按照固定格式。
 
+output.json是记录，每次对话都会记录，报错可回看
+
 ai_dir目录：ai存储文件的地方，可以修改host.py的提示词改变
 
 
