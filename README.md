@@ -8,6 +8,8 @@ python  llama-b9221-bin-win-cuda-12.4-x64\llama-quantize.exe qwen3-8b-f16.gguf q
 启动模型服务:
 llama-b9221-bin-win-cuda-12.4-x64\llama-server.exe -m D:\Project\Python\langchain\Qwen3-8B\qwen3-8b-q4_k_m.gguf  -ngl 33 --host 127.0.0.1 --port 8080
 
+或者：
+修改host.py的OpenAI(base_url="http://127.0.0.1:8080", api_key="123")，使用远程Api
 启动mcp_server:
 python mcp_server.py
 
