@@ -1,4 +1,5 @@
 gpu：RTX4060 laptop
+python：3.10.11
 
 
 编译原始模型文件:
